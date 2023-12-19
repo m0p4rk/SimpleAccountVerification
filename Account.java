@@ -6,5 +6,13 @@ public class Account {
             return false;
         }
     }
+
+    public static void loginfail (boolean admin){
+        if(admin == true){
+            System.out.println("Login success, welcome Admin");
+        } else {
+            System.out.println("USER NOT ALLOWED");
+        }
+    }
     
 }
